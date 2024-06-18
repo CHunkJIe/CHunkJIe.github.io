@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-CN" style="color-scheme: dark;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHUNK - About Me</title>
+    <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="shortcut icon" href="./assets/public/favicon.svg"/>
+</head>
+<body>
+    <canvas class="fireworks"></canvas>
+    <div class="head">
+        <div class="main">
+            <a href="./index.html" class="logo"><img src="./assets/public/logo_text.svg"></a>
+            <div class="menu">
+                <li class="magical btn" onclick="window.location.href='./index.html'">首页</li>
+                <li class="magical btn" onclick="window.location.href='./work.html'">作品集</li>
+                <li class="magical btn" onclick="window.location.href='./blog.html'">文章</li>
+                <li class="magical btn nav" onclick="window.location.href='./about.html'">关于我</li>
+            </div>
+            <div class="menu" id="menu-expand">
+                <li class="magical btn skin" id="menu-expand-child"><i class="icon menu-icon"></i></li>
+            </div>
+            <div id="menu-panel">
+                <div class="menu-panel-content">
+                    <li class="magical btn" onclick="window.location.href='./index.html'">首页</li>
+                    <li class="magical btn" onclick="window.location.href='./work.html'">作品集</li>
+                    <li class="magical btn" onclick="window.location.href='./blog.html'">文章</li>
+                    <li class="magical btn nav" onclick="window.location.href='./about.html'">关于我</li>
+                </div>
+            </div>
+        </div>
+        <blockquote><img src="./assets/public/logo.svg"></blockquote>
+    </div>
+    <div class="about">
+        <div class="about-top">
+            <div class="about-name">常康杰</div>
+            <div class="about-info">
+                <div class="about-info-left">
+                    <div class="about-info-title">个人介绍</div>
+                    <div class="introduce-desc">
+                       我是一名UI设计师，专业是数字媒体艺术，主要学习了三维动效、网页制作、交互设计、设计与商业、媒体交互。<br><br>
+                       我有8年的美术学习经验，熟悉基础的 UI  设计知识和规范，对页面布局、色彩搭配、交互设计、信息架构和用户体验有较深刻的认识，有审美能力，对色彩理念有一定了解，了解 UI&UE 以及交互设计的概念，荣获2023第十一届全国大学生数字媒体科技作品创意竞赛西北赛区三等奖<br><br>
+                        2023.07.01 — 2024.01.15 甘肃兰州城市大数据运营有限公司实习<a href="http://www.silkdo.com/" target="_blank">系统学习UI设计参与老农工与XStore系统设计 ↗</a> 
+                    </div>
+                </div>
+                <div class="about-info-right">
+                    <div class="contact">
+                        <div class="about-info-title">联系我</div>
+                        <div class="contact-desc">
+                            <div class="list">
+                                <div class="list-label">Email：</div>
+                                <div href="javascript:" class="list-value" id="email" tabindex="0" role="button"  title="点击复制邮箱">
+                                    <a id="emailCopied">3232114547@qq.com</a>
+                                </div>
+                                <span class="list-value copied">copied&nbsp;✓</span>
+                            </div>
+                            <div class="list">
+                                <div class="list-label">Wechat：</div>
+                                <div class="list-value">
+                                    <a class="tooltip">SoengHongGIt
+                                        <div class="tooltip-box">
+                                            <img src="./assets/about/微信图片_20240618094450.png">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="resume">
+                        <div class="about-info-title resume-title">简历</div>
+                        <div class="resume-desc">
+                            <div class="resume-desc-helptext">我的简历 (PDF & 1MB)</div>
+                            <div class="magical resume-btn"><a href="https://www.zhipin.com/web/geek/resume" target="_blank">查看</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-middle">
+            <div class="power">
+                
+                <div class="list-01">
+                    <div class="magical power-card">
+                        <a>
+                            <div class="card-img" style="background-image: url('./assets/about/abstract.svg')"></div>
+                            <div class="card-text">组件库搭建</div>
+                        </a>
+                    </div>
+                    <div class="magical power-card">
+                        <a>
+                            <div class="card-img" style="background-image: url('./assets/about/menu.svg')"></div>
+                            <div class="card-text">IOS设计规范</div>
+                        </a>
+                    </div>
+                    <div class="magical power-card">
+                        <a>
+                            <div class="card-img" style="background-image: url('./assets/about/code.svg')"></div>
+                            <div class="card-text">Design Token</div>
+                        </a>
+                    </div>
+                    <div class="magical power-card">
+                        <a>
+                            <div class="card-img" style="background-image: url('./assets/about/pin.svg')"></div>
+                            <div class="card-text">组件变体</div>
+                        </a>
+                    </div>
+                    <div class="magical power-card">
+                        <a>
+                            <div class="card-img" style="background-image: url('./assets/about/pen.svg')"></div>
+                            <div class="card-text">自适应布局</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+   
+</body>
+<script src="./js/main.min.js"></script>
+<script src='./js/anime.js'></script>
+<script src='./js/firework.js'></script>
+</html>
